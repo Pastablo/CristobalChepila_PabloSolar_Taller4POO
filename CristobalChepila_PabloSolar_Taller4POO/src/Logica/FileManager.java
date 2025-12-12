@@ -1,12 +1,22 @@
 //Cristobal Chepilla 21.873.055-8 I.T.I
 //Pablo Solar 21.590.002-9 I.T.I
 
-package Taller4;
+package Logica;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.Scanner;
+
+import Dominio.Administrador;
+import Dominio.Certificacion;
+import Dominio.Coordinador;
+import Dominio.Curso;
+import Dominio.Estudiante;
+import Dominio.Nota;
+import Dominio.Registro;
+import Dominio.Usuario;
+
 import java.util.ArrayList;
 import java.util.List;
 

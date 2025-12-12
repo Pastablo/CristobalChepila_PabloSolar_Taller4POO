@@ -1,7 +1,7 @@
 //Cristobal Chepilla 21.873.055-8 I.T.I
 //Pablo Solar 21.590.002-9 I.T.I
 
-package Taller4;
+package Presentación;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -16,6 +16,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+
+import Dominio.Administrador;
+import Dominio.Coordinador;
+import Dominio.Estudiante;
+import Dominio.Usuario;
+import Logica.Repositorio;
 
 
 public class UsuarioFormDialog extends JDialog {

@@ -1,10 +1,13 @@
 //Cristobal Chepilla 21.873.055-8 I.T.I
 //Pablo Solar 21.590.002-9 I.T.I
 
-package Taller4;
+package Logica;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
+
+import Dominio.Certificacion;
+import Dominio.Registro;
 
 public class ExportManager {
     public static boolean exportarCertificado(Registro r) {

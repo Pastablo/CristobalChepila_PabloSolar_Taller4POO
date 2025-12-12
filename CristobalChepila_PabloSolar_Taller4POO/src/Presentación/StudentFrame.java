@@ -1,7 +1,7 @@
 //Cristobal Chepilla 21.873.055-8 I.T.I
 //Pablo Solar 21.590.002-9 I.T.I
 
-package Taller4;
+package Presentación;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -16,6 +16,14 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
+
+import Dominio.Certificacion;
+import Dominio.Estudiante;
+import Dominio.Registro;
+import Logica.AnaliticaManager;
+import Logica.ConteoCert;
+import Logica.FileManager;
+import Logica.Repositorio;
 
 
 public class StudentFrame extends JFrame {

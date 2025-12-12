@@ -1,7 +1,7 @@
 //Cristobal Chepilla 21.873.055-8 I.T.I
 //Pablo Solar 21.590.002-9 I.T.I
 
-package Taller4;
+package Presentación;
 
 
 import java.awt.BorderLayout;
@@ -21,6 +21,12 @@ import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.SwingConstants;
 import javax.swing.table.AbstractTableModel;
+
+import Dominio.Coordinador;
+import Dominio.Estudiante;
+import Dominio.Usuario;
+import Logica.FileManager;
+import Logica.Repositorio;
 
 
 
