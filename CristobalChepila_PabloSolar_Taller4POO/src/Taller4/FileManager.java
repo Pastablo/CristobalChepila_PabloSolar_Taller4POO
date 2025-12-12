@@ -1,3 +1,6 @@
+//Cristobal Chepilla 21.873.055-8 I.T.I
+//Pablo Solar 21.590.002-9 I.T.I
+
 package Taller4;
 
 import java.io.File;
@@ -38,7 +41,6 @@ public class FileManager {
                     String area = s.length>3? s[3] : "";
                     Repositorio.getInstance().getUsuarios().add(new Coordinador(user, pass, area));
                 } else if ("EST".equalsIgnoreCase(rol)) {
-                    // formato: rut;password;EST;nombre;carrera;semestre;email
                     String rut = user;
                     String nombre = s.length>3? s[3] : "";
                     String carrera = s.length>4? s[4] : "";

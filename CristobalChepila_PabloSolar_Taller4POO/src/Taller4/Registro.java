@@ -1,3 +1,6 @@
+//Cristobal Chepilla 21.873.055-8 I.T.I
+//Pablo Solar 21.590.002-9 I.T.I
+
 package Taller4;
 
 public class Registro {
@@ -7,7 +10,7 @@ public class Registro {
     private String estado; // Activa, Completada, Suspendida
     private double progreso;
 
-    // constructor mínimo de 3 campos (usado en UI)
+    // constructor mínimo de 3 campos
     public Registro(String rutEstudiante, String idCertificacion, String fecha) {
         this.rutEstudiante = rutEstudiante;
         this.idCertificacion = idCertificacion;

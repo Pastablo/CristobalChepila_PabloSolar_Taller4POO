@@ -1,3 +1,6 @@
+//Cristobal Chepilla 21.873.055-8 I.T.I
+//Pablo Solar 21.590.002-9 I.T.I
+
 package Taller4;
 
 import java.awt.BorderLayout;
@@ -77,7 +80,6 @@ public class StudentFrame extends JFrame {
         if (row == -1) { JOptionPane.showMessageDialog(this, "Seleccione una certificación."); return; }
         String idCert = (String) model.getValueAt(row, 0);
 
-        // fecha básica: yyyy-MM-dd usando Date
         String fecha = new java.text.SimpleDateFormat("yyyy-MM-dd").format(new java.util.Date());
 
         Registro r = new Registro(est.getRut(), idCert, fecha, "Activa", 0.0);
